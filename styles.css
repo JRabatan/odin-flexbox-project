@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.banner-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 20px 300px;
+    gap: 80px;
+}
+
+.header-container { /* The Header */
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-align: left;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.banner-container { /* The Banner */
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.image-placeholder {
+    background-color: gray;
+    color: white;
+}
+
+#hero-main-text {   /* For BIG stuff */
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero-secondary-text { /* For smaller stuff and links */
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+#button {   /* For buttons */
+    background-color: #3882F6;
+}
+
+.info-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
