@@ -184,9 +184,44 @@ body {
     border-radius: 10px;
     background-color: #3882F6;
     color: #F9FAF8;
+    gap: 80px;
 }
 
-.call-to-action-logo {
+.call-to-action-text {
     display: flex;
-    
+    flex-direction: column;
+    width: 100%; /* Allows it to grow and fill available space */
+}
+
+.call-to-action-big {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-align: left; /* Allows it to grow and fill available space */
+}
+
+.call-to-action-small {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left; /* Allows it to grow and fill available space */
+}
+
+.call-to-action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 10px 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
